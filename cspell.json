@@ -5,6 +5,7 @@
     "esbuild",
     "fastify",
     "imagemin",
+    "outdir",
     "pino",
     "postcss",
     "stylelint",
