@@ -1,0 +1,11 @@
+{
+  "*.scss": [
+    "postcss --config path/to/your/config --replace",
+    "stylelint"
+  ],
+  "*.{md,js,jsx,ts,tsx,html,css}": [
+    "prettier --write",
+    "eslint --fix"
+  ],
+  "*.{png,jpeg,jpg,gif,svg}": "imagemin-lint-staged"
+}

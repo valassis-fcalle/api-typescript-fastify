@@ -1,0 +1,71 @@
+{
+  "author": "Francisco Calle Moreno",
+  "bugs": {
+    "url": "https://github.com/yonathan06/fastify-typescript-starter/issues"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.23.2",
+    "ajv": "^8.11.0",
+    "dotenv": "^16.0.0",
+    "env-schema": "^3.5.1",
+    "fastify": "^3.25.3",
+    "fastify-now": "^2.7.1",
+    "fastify-plugin": "^3.0.1"
+  },
+  "description": "Node.js boilerplate using fastify & TypeScript",
+  "devDependencies": {
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "@types/node": "^16.11.19",
+    "@types/tap": "^15.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "cspell": "6.1.2",
+    "esbuild": "^0.14.11",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-markdownlint": "0.3.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "markdownlint": "0.26.0",
+    "nodemon": "^2.0.15",
+    "pino-pretty": "^7.3.0",
+    "prettier": "^2.5.1",
+    "semantic-release": "19.0.3",
+    "tap": "^15.1.6",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "homepage": "https://github.com/yonathan06/fastify-typescript-starter#readme",
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "typescript"
+  ],
+  "license": "MIT",
+  "name": "fastify-typescript-starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonathan06/fastify-typescript-starter.git"
+  },
+  "scripts": {
+    "build": "esbuild `find src \\( -name '*.ts' \\)` --platform=node --outdir=build --resolve-extensions=.js",
+    "build:docker:prod": "docker build . -t my-fastify-app --build-arg APP_ENV=production",
+    "check:types": "tsc --noEmit",
+    "dev": "nodemon | pino-pretty --colorize",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "pretest": "npm run build",
+    "release": "semantic-release",
+    "release:dry": "semantic-release --dry-run",
+    "start": "node build",
+    "test": "NODE_ENV=test tap",
+    "test:watch": "NODE_ENV=test tap -w"
+  },
+  "version": "1.0.0"
+}
