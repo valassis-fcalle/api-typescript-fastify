@@ -1,7 +1,7 @@
 # Node.js API using Fastify & TypeScript
 
 ![ci badge](https://github.com/valassis-fcalle/api-typescript-fastify/workflows/CI/badge.svg)
-[![Sync Vulnerabilities Status](https://github.com/valassis-fcalle/api-typescript-fastify/badge.svg)](https://snyk.io/test/github/valassis-fcalle/api-typescript-fastify)
+[![Sync Vulnerabilities Status](https://app.snyk.io/test/github/valassis-fcalle/api-typescript-fastify/badge.svg)](https://snyk.io/test/github/valassis-fcalle/api-typescript-fastify)
 
 ## Included in the boilerplate
 
