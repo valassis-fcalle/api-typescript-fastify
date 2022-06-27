@@ -1,5 +1,5 @@
-import server from './index.js';
 import tap from 'tap';
+import server from './index.js';
 
 tap.only('Server', (t) => {
   t.plan(1);

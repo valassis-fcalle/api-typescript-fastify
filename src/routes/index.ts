@@ -1,5 +1,5 @@
-import { NowRequestHandler } from 'fastify-now';
 import { Type } from '@sinclair/typebox';
+import { NowRequestHandler } from 'fastify-now';
 
 export const GET: NowRequestHandler = async function () {
   return { hello: 'world' };

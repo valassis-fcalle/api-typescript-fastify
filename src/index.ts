@@ -1,8 +1,8 @@
+import fastify from 'fastify';
+import now from 'fastify-now';
 import path from 'node:path';
 import { URL } from 'node:url';
-import fastify from 'fastify';
 import config from './plugins/config.js';
-import now from 'fastify-now';
 
 const server = fastify({
   ajv: {
