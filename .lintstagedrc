@@ -1,4 +1,5 @@
 {
+  "*": "cspell --no-summary --no-progress",
   "*.scss": [
     "postcss --config path/to/your/config --replace",
     "stylelint"
