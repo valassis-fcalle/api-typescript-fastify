@@ -1,17 +1,7 @@
-# Node.js starter using Fastify & TypeScript
+# Node.js API using Fastify & TypeScript
 
 ![ci badge](https://github.com/valassis-fcalle/api-typescript-fastify/workflows/CI/badge.svg)
-[![Sync Vulnerabilities Status](https://github.com/valassis-fcalle/api-typescript-fastify/badge.svg)](https://snyk.io/test/github/yonathan06/fastify-typescript-boilerplate)
-
-Create a new server:
-
-```bash
-pnpx degit yonathan06/fastify-typescript-starter my-server
-```
-
-or `npx`.
-
-See [degit](https://github.com/Rich-Harris/degit) docs for detailed explaination
+[![Sync Vulnerabilities Status](https://github.com/valassis-fcalle/api-typescript-fastify/badge.svg)](https://snyk.io/test/github/valassis-fcalle/api-typescript-fastify)
 
 ## Included in the boilerplate
 
@@ -24,25 +14,21 @@ See [degit](https://github.com/Rich-Harris/degit) docs for detailed explaination
 - Docker image
 - Linting
 
-**BYODB - Bring your own database** - no database connection included
+**Bring your own database** - no database connection included
 
 ## Set Up
 
 - Install the dependencies.
 
 ```bash
-pnpm install
+yarn install
 ```
-
-or npm/yarn
 
 - Start the server in development mode.
 
 ```bash
-pnpm dev
+yarn dev
 ```
-
-or npm/yarn
 
 ## File Based Routing
 
@@ -75,8 +61,3 @@ Check `.github/workflows/CI.yml`
 
 Build docker image AFTER executing `npm run build`
 The docker image copies the `build` directory, so it has to be present
-
-## Recommended Vscode Extensions
-
-[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
