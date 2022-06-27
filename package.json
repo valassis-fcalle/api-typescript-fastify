@@ -1,7 +1,7 @@
 {
   "author": "Francisco Calle Moreno",
   "bugs": {
-    "url": "https://github.com/yonathan06/fastify-typescript-starter/issues"
+    "url": "https://github.com/valassis-fcalle/api-typescript-fastify"
   },
   "dependencies": {
     "@sinclair/typebox": "^0.23.2",
@@ -41,7 +41,7 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "homepage": "https://github.com/yonathan06/fastify-typescript-starter#readme",
+  "homepage": "https://github.com/valassis-fcalle/api-typescript-fastify#readme",
   "keywords": [
     "nodejs",
     "fastify",
@@ -51,7 +51,7 @@
   "name": "fastify-typescript-starter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yonathan06/fastify-typescript-starter.git"
+    "url": "git+https://github.com/valassis-fcalle/api-typescript-fastify"
   },
   "scripts": {
     "build": "esbuild `find src \\( -name '*.ts' \\)` --platform=node --outdir=build --resolve-extensions=.js",

@@ -1,7 +1,7 @@
 # Node.js starter using Fastify & TypeScript
 
-![ci badge](https://github.com/yonathan06/fastify-typescript-boilerplate/workflows/CI/badge.svg)
-[![Sync Vulnerabilities Status](https://app.snyk.io/test/github/yonathan06/fastify-typescript-boilerplate/badge.svg)](https://snyk.io/test/github/yonathan06/fastify-typescript-boilerplate)
+![ci badge](https://github.com/valassis-fcalle/api-typescript-fastify/workflows/CI/badge.svg)
+[![Sync Vulnerabilities Status](https://github.com/valassis-fcalle/api-typescript-fastify/badge.svg)](https://snyk.io/test/github/yonathan06/fastify-typescript-boilerplate)
 
 Create a new server:
 

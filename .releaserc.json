@@ -4,5 +4,5 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator"
   ],
-  "repositoryUrl": "git@github.com:valassis-fcalle/project-bootstrap.git"
+  "repositoryUrl": "git@github.com:valassis-fcalle/api-typescript-fastify.git"
 }
